@@ -1,5 +1,7 @@
 #!/bin/bash
 
+python3 ./generate_directory_structure.py
+
 # Set the project and Vite directories
 #PROJECT_DIR="my-local-node-project"
 VITE_PROJECT_DIR="live-documentation-frontend-bundle"
