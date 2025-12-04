@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head tag { -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+    <style>
+      #visGraph {
+        width: 100%;
+        height: 600px; /* Fixed height to make sure the container has space */
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <!-- } -->
+  <body>
+    <h1 align="center">
+      Graph
+    </h1>
+    <!--<h1>UPDATED at {{ now }}</h1>-->
+    <div id="fileExplorer">
+    </div>
+    <ol>
+      <!-- { -->
+      <li>
+        <details open="true">
+          <summary>
+            Tash Flow Graph:-
+          </summary>
+          <div id='visGraph'></div>
+        </details>
+      </li>
+      <!-- } -->
+    </ol>
+    <!-- { -->
+    <script type="module" src="/src/assets/graph_script.js"></script>
+    <!-- } -->
+  </body>
+</html>
